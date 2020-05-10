@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="containder text-danger p-5 text-center font-weight-bold">
+        <h1>Modify me</h1>
+        <hr class="bg-danger" style="height: 2px;" />
+
+        <section id="personal-info" class="font-weight-bold p-2">
+            <h3>Personal Info</h3>
+            <div class="row">
+                <div class="col-6">
+                    <label>
+                        <span>First name</span>
+                        <p class="text-dark">Pesho</p>
+                    </label>
+                </div>
+                <div class="col-6">
+                    <label>
+                        <span>Last name</span>
+                        <p class="text-dark">Peshov</p>
+                    </label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <label>
+                        <span>Phone Number</span>
+                        <p class="text-dark">555-333-4545</p>
+                    </label>
+                </div>
+                <div class="col-6">
+                    <label>
+                        <span>UCL</span>
+                        <p class="text-dark" for="number-field">9311124003</p>
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <hr class="bg-danger" style="height: 2px;" />
+
+        <section id="team-position" class="font-weight-bold p-2">
+            <h3>Team and Position</h3>
+            <div class="p-2 font-weight-normal text-dark">
+                <label class="col-2 px-2">
+                    <input type="radio" name="team-position" for="support">
+                    <span class="px-2">Support</span>
+                </label>
+                <label class=" col-2 px-2">
+                    <input type="radio" name="team-position" for="crm">
+                    <span class="pl-3">CRM</span>
+                </label>
+                <label class="col-2  px-2">
+                    <input type="radio" name="team-position" for="marketing">
+                    <span class="pl-3">Marketing</span>
+                </label>
+                <label class="col-2  px-2">
+                    <input type="radio" name="team-position" for="development">
+                    <span class="pl-3">Development</span>
+                </label>
+                <label class="col-2  px-2">
+                    <input type="radio" name="team-position" for="other" checked>
+                    <span class="pl-3">Other</span>
+                </label>
+            </div>
+
+            <hr class="bg-danger" style="height: 2px; width: 50%;" />
+
+            <div class="p-2 font-weight-normal text-dark">
+                <label class="col-3  px-5" name="position">
+                    <input type="radio" name="position">
+                    <span class="pl-3" for="position">Team Lead</span>
+                </label>
+                <label class="col-3  px-5" name="position">
+                    <input type="radio" name="position" checked>
+                    <span class="pl-3" for="position">Regular Employee</span>
+                </label>
+                <label class="col-3  px-5" name="position">
+                    <input type="radio" name="position">
+                    <span class="pl-3" for="position">Intern</span>
+                </label>
+            </div>
+
+        </section>
+
+        <hr class="bg-danger" style="height: 2px;" />
+
+        <section>
+            <button class="btn btn-danger mr-5">Submit</button>
+            <button class="btn btn-danger ml-5">Reset</button>
+        </section>
+
+
+    </main>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

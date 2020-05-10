@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44101ee1-abd9-42d5-9c10-1d058388222a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JS Core">
+      <favorite_root url="file://$PROJECT_DIR$/lecture09/04_Replace-a-Certain-Word/solution.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/lecture01/class.js" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1Ok0kDriS9l9lwmGwWa9watg1IZ" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fundamentals/lecture01" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OneDrive\My interests\Coding\JS core\lecture01" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.class.js">
+    <configuration name="1.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="1.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="addRemoveElement.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="addRemoveElement.js" working-dir="$PROJECT_DIR$/lecture08">
+      <method v="2" />
+    </configuration>
+    <configuration name="class.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lecture01/class.js" working-dir="$PROJECT_DIR$/lecture09">
+      <method v="2" />
+    </configuration>
+    <configuration name="solution.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="solution.js" working-dir="$PROJECT_DIR$/lecture09/03_Split-String-Equally">
+      <method v="2" />
+    </configuration>
+    <configuration name="solution.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="solution.js" working-dir="$PROJECT_DIR$/lecture09/04_Replace-a-Certain-Word">
+      <method v="2" />
+    </configuration>
+    <configuration name="solution.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="solution.js" working-dir="$PROJECT_DIR$/lecture09/01_Pascal-or-Camel-Case">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.class.js" />
+        <item itemvalue="Node.js.solution.js (2)" />
+        <item itemvalue="Node.js.solution.js (1)" />
+        <item itemvalue="Node.js.solution.js" />
+        <item itemvalue="Node.js.addRemoveElement.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44101ee1-abd9-42d5-9c10-1d058388222a" name="Default Changelist" comment="" />
+      <created>1564506427655</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564506427655</updated>
+      <workItem from="1564506429712" duration="940000" />
+      <workItem from="1564507459015" duration="844000" />
+      <workItem from="1568398545392" duration="739000" />
+      <workItem from="1568400015058" duration="37000" />
+      <workItem from="1568400065071" duration="364000" />
+      <workItem from="1568400444341" duration="1423000" />
+      <workItem from="1568401894633" duration="184000" />
+      <workItem from="1568402234250" duration="73000" />
+      <workItem from="1568402318046" duration="50185000" />
+      <workItem from="1568826167378" duration="9341000" />
+      <workItem from="1569311628102" duration="89000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

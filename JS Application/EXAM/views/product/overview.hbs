@@ -1,0 +1,56 @@
+<div class="content">
+    {{#if result}}
+    <section class="js">
+        <h2>JavaScript</h2>
+        <div class="articles">
+            <article>
+                {{#each js}}
+                <h3>{{this.title}}</h3>
+                <p>{{this.content}}</p>
+                <a href="#/product/details/{{this.id}}" class="btn details-btn">Details</a>
+                {{/each}}
+            </article>
+        </div>
+    </section>
+    <section class="CSharp">
+        <h2>C#</h2>
+        <div class="articles">
+
+            <article>
+                {{#each csharp}}
+                <h3>{{this.title}}</h3>
+                <p>{{this.content}}</p>
+                <a href="#/product/details/{{this.id}}" class="btn details-btn">Details</a>
+                {{/each}}
+            </article>
+        </div>
+    </section>
+    <section class="Java">
+        <h2>Java</h2>
+        <div class="articles">
+            <article>
+                {{#each java}}
+                <h3>{{this.title}}</h3>
+                <p>{{this.content}}</p>
+                <a href="#/product/details/{{this.id}}" class="btn details-btn">Details</a>
+                {{/each}}
+            </article>
+        </div>
+    </section>
+    <section class="Pyton">
+        <h2>Pyton</h2>
+        <div class="articles">
+            <article>
+                {{#each pyton}}
+                <h3>{{this.title}}</h3>
+                <p>{{this.content}}</p>
+                <a href="#/product/details/{{this.id}}" class="btn details-btn">Details</a>
+                {{/each}}
+            </article>
+        </div>
+    </section>
+    {{else}}
+    <!-- No articles message -->
+    <h3 class="no-articles">No articles yet</h3>
+    {{/if}}
+</div>

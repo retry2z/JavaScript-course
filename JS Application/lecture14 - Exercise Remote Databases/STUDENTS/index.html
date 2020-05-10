@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Students</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <table id="results">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Faculty Number</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
+    <form>
+        <h3>FORM</h3>
+        <span id="notification"></span>
+        <label>ID</label>
+        <input type="number" id="id" placeholder="Student ID...">
+        <label>First name</label>
+        <input type="text" id="firstName" placeholder="Enter your first name...">
+        <label>Last name</label>
+        <input type="text" id="lastName" placeholder="Enter your last name...">
+        <label>Faculty number</label>
+        <input type="number" id="facNumber" placeholder="Faculty number...">
+        <label>Grades</label>
+        <input type="number" id="grade" placeholder="Grades...">
+        <button>Submit</button>
+    </form>
+    <script src="./htmlElements.js"></script>
+    <script src="./dbConnect.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>

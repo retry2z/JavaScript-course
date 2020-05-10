@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="text-center">
+        <h1 class="bg-dark text-white p-4">Log Horizon</h1>
+    </header>
+    <main class="text-center p-2">
+
+        <section>
+            <form class="form group" action="">
+                <label id="username-input" class="p-2">
+                    <input class="form-control" type="text" placeholder="Username...">
+                </label>
+                <label class="p-2">
+                    <input type="button" id="username-btn" class="btn btn-dark text-whit" value="Set Username">
+                </label>
+
+            </form>
+        </section>
+        <hr class="bg-dark" style="height: 1px;" />
+
+        <section>
+            <h1 class="p-2">Log a Message</h1>
+            <div class="row p-5">
+                <div class="col-6 pl-5">
+                    <input id="messageContainder" class="form-control " type="text" placeholder="Message...">
+                </div>
+                <div class="col-3">
+
+                    <button class="btn btn-outline-success">
+                        <input type="radio" name="log-type" id="success">Success
+                    </button>
+                    <button class="btn btn-outline-info">
+                        <input type="radio" name="log-type" id="info">Info
+                    </button>
+                    <button class="btn btn-outline-danger">
+                        <input type="radio" name="log-type" id="error">Error
+                    </button>
+
+                </div>
+
+                <div class="col-1 border-left">
+                    <button id="log" class="btn btn-dark text-white">Log</button>
+                </div>
+            </div>
+        </section>
+        <hr class="bg-dark" style="height: 1px;" />
+
+        <section>
+            <hr class="bg-dark" style="height: 1px;" />
+            <h1>Logs</h1>
+            <div id="logs">
+                <h2 id='history' class="text-gray">There are no logs in the database...</h2>
+            </div>
+        </section>
+
+
+    </main>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
